@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .profile {
+            margin-bottom: 30px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="WhatsApp Image 2025-04-03 at 16.02.18_9180b531.jpg" alt="your name">
+            
+
+            <div class="bio">
+                <h2>Hezron Otwoma</h2>
+                <p><strong>Profession:</strong> Software Engineer</p>
+                <p><strong>Specialization:</strong> Frontend Web Development</p>
+                <p><strong>Skills:</strong> HTML</p>
+                <p><strong>Experience:</strong> [3 years]</p>
+                <p><strong>Education:</strong> [education science]</p>
+                <p><strong>Contact:</strong> [otwomahezron20@gmail.com]</p>
+            </div>
+            
+        </div>
+        
+        <div class="grid">
+            <div class="card">
+                <h2>Project One</h2>
+                <p>A brief description of Project One. Built with HTML and CSS.</p>
+                <a href="#" class="button">View Project</a>
+            </div>
+            <div class="card">
+                <h2>Project Two</h2>
+                <p>A brief description of Project Two. Built with JavaScript.</p>
+                <a href="#" class="button">View Project</a>
+            </div>
+            <div class="card">
+                <h2>Project Three</h2>
+                <p>A brief description of Project Three. Built with Bootstrap.</p>
+                <a href="#" class="button">View Project</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
